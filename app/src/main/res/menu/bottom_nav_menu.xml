@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/usernameInformationFragment"
+        android:title="User's Information" />
+
+    <item
+        android:id="@+id/gameCompanyListFragment"
+        android:title="User's Gaming Company Choices" />
+
+    <item
+        android:id="@+id/videogameConceptsFragment"
+        android:title="User's Videogame Concepts &amp; Ideas" />
+</menu>

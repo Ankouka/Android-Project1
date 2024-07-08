@@ -1,0 +1,52 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/welcomePageFragment"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/welcomePageFragment"
+        android:name="edu.msudenver.cs3013.project1_s24.Welcome_PageFragment"
+        android:label="Welcome_PageFragment">
+        <action
+            android:id="@+id/action_welcomePageFragment_to_usernameInformationFragment"
+            app:destination="@id/usernameInformationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/usernameInformationFragment"
+        android:name="edu.msudenver.cs3013.project1_s24.Username_InformationFragment"
+        android:label="Username_InformationFragment">
+        <action
+            android:id="@+id/action_usernameInformationFragment_to_gameCompanyListFragment"
+            app:destination="@id/gameCompanyListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameCompanyListFragment"
+        android:name="edu.msudenver.cs3013.project1_s24.Game_Company_ListFragment"
+        android:label="Game_Company_ListFragment">
+        <action
+            android:id="@+id/action_gameCompanyListFragment_to_videoGameConceptsFragment"
+            app:destination="@id/videoGameConceptsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/videoGameConceptsFragment"
+        android:name="edu.msudenver.cs3013.project1_s24.VideoGame_ConceptsFragment"
+        android:label="VideoGame_ConceptsFragment">
+        <action
+            android:id="@+id/action_videoGameConceptsFragment_to_finalPageFragment"
+            app:destination="@id/finalPageFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/finalPageFragment"
+        android:name="edu.msudenver.cs3013.project1_s24.Final_PageFragment"
+        android:label="Final_PageFragment">
+        <action
+            android:id="@+id/action_finalPageFragment_to_welcomePageFragment"
+            app:destination="@id/welcomePageFragment"/>
+    </fragment>
+
+</navigation>

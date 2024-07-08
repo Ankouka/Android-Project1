@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Game_Company_ListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/game_company_list_title"
+        style="@style/SubText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_orange_120"
+        android:text="@string/Game_Company_list" />
+
+    <TextView
+        android:id="@+id/game_company1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/light_orange_120"
+        android:text="@string/Game_Company1" />
+
+    <TextView
+        android:id="@+id/game_company2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/Game_Company2"
+        android:textColor="@color/light_orange_120" />
+
+    <TextView
+        android:id="@+id/game_company3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/Game_Company3"
+        android:textColor="@color/light_orange_120" />
+
+    <TextView
+        android:id="@+id/game_company4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/Game_Company4"
+        android:textColor="@color/light_orange_120" />
+
+    <TextView
+        android:id="@+id/game_company5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/Game_Company5"
+        android:textColor="@color/light_orange_120" />
+
+    <TextView
+        android:id="@+id/game_company6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/Game_Company6"
+        android:textColor="@color/light_orange_120" />
+
+    <TextView
+        android:id="@+id/game_company7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/Game_Company7"
+        android:textColor="@color/light_orange_120" />
+
+    <TextView
+        android:id="@+id/game_company8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/Game_Company8"
+        android:textColor="@color/light_orange_120" />
+
+    <TextView
+        android:id="@+id/game_company9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/Game_Company9"
+        android:textColor="@color/light_orange_120" />
+
+    <TextView
+        android:id="@+id/game_company10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/Game_Company10"
+        android:textColor="@color/light_orange_120" />
+
+    <TextView
+        android:id="@+id/game_company11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/Game_Company11"
+        android:textColor="@color/light_orange_120" />
+
+    <TextView
+        android:id="@+id/game_companyid_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:textSize="26sp"
+        android:paddingBottom="10dp"
+        android:text="@string/Game_Company_label"
+        android:textColor="@color/light_orange_120" />
+    <EditText
+        android:id="@+id/game_companyid_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:textSize="24sp"
+        android:hint="@string/Game_Company_field"
+        android:paddingBottom="25dp"
+        android:textColor="@color/light_orange_120" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/light_orange_120"
+        android:gravity="center"
+        android:text="@string/next_button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</LinearLayout>

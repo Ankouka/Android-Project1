@@ -1,3 +1,55 @@
 <resources>
     <string name="app_name">Project1_S24</string>
+    <string name="title">Welcome to the Video Game Request Forum</string>
+    <string name="subtitle">This forum is for people that want to share ideas or concepts on
+    a video game that could be developed. Once a request forum is completed, it will be sent to
+    a gaming studio the person chose</string>
+
+    <string name="next_button1">NEXT</string>
+
+    <string name="full_name_label">Enter your first and last name</string>
+    <string name="full_name_field">Fist Name And Last Name</string>
+    <string name="email_label">Enter your email</string>
+    <string name="email_field">Email</string>
+    <string name="todays_date_label">Enter today\'s date</string>
+    <string name="todays_date_field">Date</string>
+    <string name="next_button2">NEXT</string>
+
+    <string name="Game_Company_list">Here is a list of Gaming Companies that you may recognize:</string>
+    <string name="Game_Company1">Nintendo</string>
+    <string name="Game_Company2">Activision Blizzard</string>
+    <string name="Game_Company3">Electronic Arts</string>
+    <string name="Game_Company4">Ubisoft</string>
+    <string name="Game_Company5">Bandai Namco Entertainment</string>
+    <string name="Game_Company6">Epic Games</string>
+    <string name="Game_Company7">FromSoftware</string>
+    <string name="Game_Company8">Rocksteady</string>
+    <string name="Game_Company9">Insomniac Games Inc</string>
+    <string name="Game_Company10">Blizzard Entertainment</string>
+    <string name="Game_Company11">Microsoft</string>
+
+    <string name="Game_Company_label">Enter the Game Company that you know of or is
+        your favorite</string>
+    <string name="Game_Company_field">Game Company</string>
+    <string name="next_button3">NEXT</string>
+
+
+    <string name="Videogame_idea_label">Write down the type of game you want, such
+        it\'s genre and the franchise you want it to be apart of</string>
+    <string name="Videogame_idea_field">Video game idea</string>
+
+    <string name="Videogame_description_label">Write down the details of what your game should like,
+        such as designs, environment, characters, and gameplay functionality</string>
+    <string name="Videogame_description_field">Video game description</string>
+    <string name="submit_button">SUBMIT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="thank_you_message">Thank you for sharing your video game concepts and
+        completing this forum. Your video game request, including your email and name,
+        has been to sent to the video game you chose. They will
+        take a look at your ideas. Click the "Go Back" button if you want to fill out another
+        video game request forum</string>
+    <string name="return_button">Go Back</string>
+
 </resources>
